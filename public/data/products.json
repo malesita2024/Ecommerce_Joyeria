@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "categoria": "Aretes",
+        "descripcion": "Aretes elaborados Zamak (aleación de metales) con baño de oro de 24k, con poste antialérgico. Incluye: 1 par de aretes.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/P162075.jpg?v=1708628174&width=800",
+        "nombre": "Aretes Maxi Gota",
+        "precio": 34.900,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "categoria": "Aretes",
+        "descripcion": "Aretes elaborados Zamak (aleación de metales) con baño de oro de 24k, con poste antialérgico. Incluye: 1 Incluye: 1 par de topos, 1 par de candongas y 1 earcuff.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Aretes_para_mujer_avemaria-109.jpg?v=1715697481&width=800",
+        "nombre": "Set X3 Aretes Dona",
+        "precio": 59.900,
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "categoria": "Aretes",
+        "descripcion": "Aretes elaborados Zamak (aleación de metales) con baño de oro de 24k, con poste antialérgico. Incluye: 1 par de topos gota, 1 par de topos bola y 1 earcuff.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Set-X3-Aretes-Gotas-Y-Bolas-Para-Mujer-AVEMARIA-71295.jpg?v=1705594967&width=800",
+        "nombre": "Set X3 Aretes Gotas Y Bolas",
+        "precio": 54.900,
+        "stock": 7
+    },
+    {
+        "id": 4,
+        "categoria": "Aretes",
+        "descripcion": "Aretes elaborados Zamak (aleación de metales) con baño de oro de 24k, con poste antialérgico. Incluye: 1 par de aretes corazón.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Maxi-Aretes-Corazon-Gold-Para-Mujer-AVEMARIA-22217.jpg?v=1713394073&width=800",
+        "nombre": "Maxi Aretes Corazón Gold",
+        "precio": 89.900,
+        "stock": 9
+    },
+    {
+        "id": 5,
+        "categoria": "Aretes",
+        "descripcion": "Aretes elaborados Zamak (aleación de metales) con baño de oro de 24k, con poste antialérgico. Incluye: 1 earcuff con cadena más topo y 1 topo estrella sencillo.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/products/Arete-Solitario-Estrella-Y-Corazon-Para-Mujer-Avemaria-71210.jpg?v=1699536452&width=800",
+        "nombre": "Arete Solitario Estrella Y Corazón",
+        "precio": 44.900,
+        "stock": 4
+    },
+    {
+        "id": 6,
+        "categoria": "Aretes",
+        "descripcion": "Aretes elaborados Zamak (aleación de metales) con baño de oro de 24k, con poste antialérgico. Incluye: 1 par de candongas S, 2 unidades de earcuff silver.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/products/L024816.jpg?v=1670881312&width=800",
+        "nombre": "Set candongas + 2 earcuff",
+        "precio": 69.900,
+        "stock": 11
+    },
+    {
+        "id": 7,
+        "categoria": "Pulseras",
+        "descripcion": "Dijes de la pulsera en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 1 pulsera y 1 par de aretes tipo topos (aretes pequeños).",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Pulsera-Dijes-Varios-Corazones-y-Universo-_-Aretes-Para-Mujer-AVEMARIA-12366.jpg?v=1708708011&width=800",
+        "nombre": "Pulsera Dijes Varios Corazones y Universo",
+        "precio": 64.900,
+        "stock": 15
+    },
+    {
+        "id": 8,
+        "categoria": "Pulseras",
+        "descripcion": "Dijes de la pulsera en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 4 pulsera y 1 par de aretes tipo topos (aretes pequeños).",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Set-X4-Pulseras-11-11-_-Aretes-Para-Mujer-AVEMARIA-11384.jpg?v=1708707257&width=800",
+        "nombre": "Set x4 Pulseras 11:11 + Aretes",
+        "precio": 59.900,
+        "stock": 7
+    },
+    {
+        "id": 9,
+        "categoria": "Pulseras",
+        "descripcion": "Dijes de la pulsera en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 1 par aretes tipo topos (aretes pequeños), el diseño del arete te llegará según disponibilidad.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Pulsera-Borlas-y-Mostacillas-_-Aretes-Para-Mujer-AVEMARIA-12368.jpg?v=1710867448&width=800",
+        "nombre": "Pulsera Borlas y Mostacillas + Aretes",
+        "precio": 59.900,
+        "stock": 9
+    },
+    {
+        "id": 10,
+        "categoria": "Pulseras",
+        "descripcion": "Dijes de la pulsera en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 5 pulseras y 1 par de aretes tipo topos (aretes pequeños).",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Set-X5-Pulseras-Ojo-_-Aretes-Para-Mujer-AVEMARIA-11395.jpg?v=1715692407&width=800",
+        "nombre": "Set X5 Pulseras Ojo + Aretes",
+        "precio": 59.900,
+        "stock": 9
+    },
+    {
+        "id": 11,
+        "categoria": "Collares",
+        "descripcion": "Cadenas y collares en bronce con baño de oro de 24k. Dijes de los collares en Zamak (aleación de metales) con baño de oro de 24k. Cadena de extensión de aproximadamente 5cm.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Set-Collar-Amor-de-Mama-_-Aretes-Para-Mujer-AVEMARIA-31501.jpg?v=1713394687&width=800",
+        "nombre": "Set Collar Amor de Mamá + Aretes",
+        "precio": 79.900,
+        "stock": 20
+    },
+    {
+        "id": 12,
+        "categoria": "Collares",
+        "descripcion": "Cadena en bronce con baño de oro de 24k. Cadena de extensión de aproximadamente 5cm. Incluye aretes tipo topos (aretes pequeños).",
+        "img": "https://accesoriosavemaria.com/cdn/shop/products/L024632.jpg?v=1669308555&width=800",
+        "nombre": "Choker Tejido Perlitas",
+        "precio": 34.900,
+        "stock": 5
+    },
+    {
+        "id": 13,
+        "categoria": "Collares",
+        "descripcion": "Collar en bronce con baño de oro de 24k. Dijes del collar en Zamak (aleación de metales) con baño de oro de 24k. Incluye aretes tipo topos (aretes pequeños).",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/R026284.jpg?v=1701117064&width=800",
+        "nombre": "Corbatín De Perlas + Aretes",
+        "precio": 49.900,
+        "stock": 12
+    },
+    {
+        "id": 14,
+        "categoria": "Anillos",
+        "descripcion": "Elaborados en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 3 anillos.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/Set-X3-Anillos-Perlas-y-Texturas-Para-Mujer-AVEMARIA-6183.jpg?v=1713374497&width=800",
+        "nombre": "Set X3 Anillos Perlas y Texturas",
+        "precio": 59.900,
+        "stock": 25
+    },
+    {
+        "id": 15,
+        "categoria": "Anillos",
+        "descripcion": "Elaborados en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 2 unidades de anillos.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/files/AVM8551.jpg?v=1708717335&width=800",
+        "nombre": "Set x2 Anillos Bold",
+        "precio": 49.900,
+        "stock": 13
+    },
+    {
+        "id": 16,
+        "categoria": "Anillos",
+        "descripcion": "Elaborados en Zamak (aleación de metales) con baño de oro de 24k. Incluye: 1 unidad de anillo.",
+        "img": "https://accesoriosavemaria.com/cdn/shop/products/P062042.jpg?v=1682091828&width=800",
+        "nombre": "Anillo Corazones Con Cristales",
+        "precio": 39.900,
+        "stock": 10
+    }
+    
+]

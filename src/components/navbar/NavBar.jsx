@@ -1,30 +1,39 @@
-import { Button, Dropdown, Space } from "antd";
+import { Dropdown, Space } from "antd";
 import "./NavBar.css";
 import CardWidget from "./CartWidget";
+import { Link } from "react-router-dom";
 
 const items = [
   {
     key: "1",
     label: (
-      <a target="_blank" href="#">
-        Tecnología
-      </a>
+      <Link to="/categoria/aretes">
+        Aretes
+      </Link>
     ),
   },
   {
     key: "2",
     label: (
-      <a target="_blank" href="#">
-        Ropa
-      </a>
+      <Link to="/categoria/pulseras">
+        Pulseras
+      </Link>
     ),
   },
   {
     key: "3",
     label: (
-      <a target="_blank" href="#">
-        Calzado
-      </a>
+      <Link to="/categoria/collares">
+        Collares
+      </Link>
+    ),
+  },
+  {
+    key: "4",
+    label: (
+      <Link to="/categoria/anillos">
+        Anillos
+      </Link>
     ),
   },
 ];
@@ -33,20 +42,25 @@ const NavBar = () => {
 
   return (
     <nav>
-      <h3>M@GA Ecommerce</h3>
-      <div className="menu">
-        <Button type="link">Inicio</Button>
-        <Button type="link">Acerca</Button>
-        <Space direction="vertical">
+      <div className="div_logo">
+      <Link to="/"><img src="logo_joyeria.png" /></Link>
+      </div>
+      {/* <h3>M@GA Ecommerce</h3> */}
+      <ul className="menu">
+        <li><Link className="link" to="/">Inicio</Link></li>
+        <li><Link className="link" to="/acerca">Acerca</Link></li>
+        <li>
+          <Space direction="vertical">
           <Space wrap>
             <Dropdown menu={{ items }} placement="Categorias" >
-              <Button type="link">Categorias</Button>
+              <Link className="link">Categorias</Link>
             </Dropdown>
           </Space>
         </Space>
-        <Button type="link">Contacto</Button>
-        <CardWidget />
-      </div>
+        </li>
+        <li><Link className="link" to="/contacto">Contacto</Link></li>
+        <li><CardWidget /></li> 
+      </ul>
     </nav>
   );
 };
