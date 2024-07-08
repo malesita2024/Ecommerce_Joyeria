@@ -34,7 +34,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENS
 
 ## Reconocimientos
 
-Este proyecto fue desarrollado como parte del curso de React en Coderhouse. Agradecemos especialmente a nuestros instructores y compañeros por su orientación y apoyo.
+Este proyecto fue desarrollado como parte del curso de React en Coderhouse. Agradezco especialmente a nuestro instructor Luciano Micucci, tutor Jesús Mora y a mis compañeros por su orientación y apoyo.
 
 ---
 
