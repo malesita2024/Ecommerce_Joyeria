@@ -18,37 +18,6 @@ Este proyecto es una aplicación ecommerce desarrollada con React y Vite. Fue cr
 - **Firebase:** Plataforma Backend-as-a-Service utilizada para autenticación, almacenamiento de base de datos y hosting.
 - **Ant Design:** Sistema de diseño con componentes React para crear interfaces pulidas y fáciles de usar.
 
-## Instalación
-
-Para ejecutar este proyecto localmente, sigue estos pasos:
-
-1. Clona el repositorio: `git clone <repo_url>`
-2. Navega al directorio del proyecto: `cd ecommerce-react-vite`
-3. Instala las dependencias: `npm install`
-4. Configura Firebase:
-   - Crea un proyecto Firebase en [Firebase Console](https://console.firebase.google.com/)
-   - Agrega los detalles de configuración de Firebase en `src/firebase/config.js`
-5. Inicia el servidor de desarrollo: `npm run dev`
-6. Abre tu navegador y visita: `http://localhost:3000`
-
-## Configuración de Firebase
-
-Asegúrate de haber configurado Firebase correctamente proporcionando la configuración de tu proyecto Firebase en `src/firebase/config.js`. Este archivo debe exportar un objeto con los detalles de configuración de Firebase.
-
-```javascript
-// src/firebase/config.js
-const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_AUTH_DOMAIN",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_STORAGE_BUCKET",
-  messagingSenderId: "TU_SENDER_ID",
-  appId: "TU_APP_ID"
-};
-
-export default firebaseConfig;
-```
-
 ## Uso
 
 - Navega a través de las diferentes secciones de la aplicación utilizando la navegación en la barra lateral.
