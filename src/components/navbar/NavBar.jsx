@@ -48,7 +48,7 @@ const NavBar = () => {
       {/* <h3>M@GA Ecommerce</h3> */}
       <ul className="menu">
         <li><Link className="link" to="/">Inicio</Link></li>
-        <li><Link className="link" to="/acerca">Acerca</Link></li>
+        <li><Link className="link" to="/nosotros">Nosotros</Link></li>
         <li>
           <Space direction="vertical">
           <Space wrap>
@@ -59,7 +59,7 @@ const NavBar = () => {
         </Space>
         </li>
         <li><Link className="link" to="/contacto">Contacto</Link></li>
-        <li><CardWidget /></li> 
+        <li><CardWidget /></li>
       </ul>
     </nav>
   );

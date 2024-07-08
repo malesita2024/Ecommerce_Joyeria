@@ -1,12 +1,8 @@
-import { Card } from "antd";
-import { Link } from "react-router-dom";
+//import { Card } from "antd";
+//import { Link } from "react-router-dom";
+import Item from "./Item";
 
 const ItemList = ({ productos }) => {
-
-  const { Meta } = Card;
-
-
-
   return (
     <>
       <div>
@@ -15,25 +11,8 @@ const ItemList = ({ productos }) => {
             {productos.map((prod) => {
               return (
                 <>
-                <Link to={`/item/${prod.id}`}>
-                <Card
-                      key={prod.id}
-                      hoverable
-                      style={{
-                          width: 240,
-                          objectFit: "cover",
-                          marginTop: 30,
-                          marginBottom: 20,
-                      }}
-                      cover={<img
-                          className="img-card-Itemlist"
-                          src={prod.img}
-                          alt={prod.name} />}
-                  >
-                      <Meta title={prod.nombre} description="Ver detalle" />
-                  </Card>
-                  </Link>
-                  </>
+                  <Item key={prod.id} producto={prod} />
+                </>
               );
             })}
           </div>

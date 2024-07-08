@@ -1,70 +1,62 @@
-import { useEffect, useState } from "react";
-import data from "../../data/products.json";
-import { Card , InputNumber } from "antd";
-import { useParams } from "react-router-dom";
+import { Card, InputNumber } from "antd";
+import { useContext } from "react";
+import { CarritoContext } from "../../context/CarritoContext";
 
-const ItemDetail = () => {
-  const [item, setItem] = useState(null);
 
-  const id = Number(useParams().id);
 
-  const miPromesa = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const item = data.find((prod) => prod.id === id);
-      item ? resolve(item) : reject({ error: "No se encontró el producto" });
-    }, 200);
-  });
+const ItemDetail = ( item ) => {
 
-  console.log("promesa--->", miPromesa)
+  const {carrito, agregarAlCarrito } = useContext(CarritoContext)
+  console.log('carrito from context---->', carrito)
 
-  useEffect(() => {
-    miPromesa
-    .then((res) => {
-      console.log("res Promesa--->",res)
-      setItem(res)
-    })
-    .catch((err) => {
-      console.log(err)
-    });
-  }, []);
+  let cantidad = 1
 
   const onChange = (value) => {
-    console.log('changed', value);
+    console.log("changed", value);
+    cantidad = value
+    return cantidad
   };
 
   return (
     <>
-    {item &&
-    <div>
-      
-      <h1>{item.nombre}</h1>
-      <Card
-        key={item.id}
-        hoverable
-        style={{
-          width: "80%",
-          objectFit: "cover",
-          display: "flex"
-        }}
-        cover={
-          <img
-            src={item.img}
-            alt={item.name}
-          />
-        }
-      >
-        <h3><span>Precio:</span> {item.precio}</h3>
-        <h3><span>Stock:</span> {item.stock}</h3>
-        <p><span>Categoría:</span> {item.categoria}</p>
-        <p><span>Descripción:</span> {item.descripcion}</p>     
-        <InputNumber min={1} max={item.stock} defaultValue={3} onChange={onChange} />
-        <br></br>
-        <button>Agregar a carrito</button>
-      </Card>
-      
-      </div>
-      }
+      {item && (
+        <div>
+          <h1>{item.prodDetail.nombre}</h1>
+          <Card
+            key={item.prodDetail.id}
+            hoverable
+            style={{
+              width: "80%",
+              objectFit: "cover",
+              display: "flex",
+            }}
+            cover={<img src={item.prodDetail.img} alt={item.prodDetail.name} />}
+          >
+            <h3>
+              <span>Precio:</span> {item.prodDetail.precio} USD
+            </h3>
+            <h3>
+              <span>Stock:</span> {item.prodDetail.stock}
+            </h3>
+            <p>
+              <span>Categoría:</span> {item.prodDetail.categoria}
+            </p>
+            <p>
+              <span>Descripción:</span> {item.prodDetail.descripcion}
+            </p>
+            <InputNumber
+              min={1}
+              max={item.prodDetail.stock}
+              defaultValue={1}
+              onChange={onChange}
+            />
+            <br></br>
+            <button onClick={()=>{ agregarAlCarrito(item, cantidad)}}>Agregar a carrito</button>
+          </Card>
+        </div>
+      )}
     </>
   );
 };
+
 export default ItemDetail;
